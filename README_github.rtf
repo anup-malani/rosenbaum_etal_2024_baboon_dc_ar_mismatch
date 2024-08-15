@@ -21,10 +21,11 @@ If you want to work outside Stata, work with the CSV files.\
 \
 For more information on the data on Dryad, please see the separate README_dryad.rtf on Dryad.  You can also see the contents of this file in the section on DATA FROM DRYAD below.\
 \
-* Download the Stata *.do file and put in the Code folder.\
-* Modify the pathnames in the global macros that define libraries (lines 20-29 of the do file).\
-* Before running, make sure you have have installed the Stata packages on lines 8-12.  You can do this by uncommenting those lines.\
-* Run the do file.  It will deposit Figure 2 in the Figures folder and Tables 4-6 in the Tables folder.  Note 1: This file only creates Figure 2 for infant survival.  If you want to create the same figure for other outcomes, uncomment line 250.  Note 2: Each table has 2 files.  One is a wrapper (eg tab_conception.tex) and one is the contents of the table (eg tab_conception_input.tex). \
+* Download the Stata replicate_Fig_2_Tabs4_5_6_A5_posted_240815.do file and put in the Code folder.\
+* Modify the pathnames in the global macros that define libraries (lines 23-36 of the do file).\
+* Before running, make sure you have have installed the Stata packages on lines 14-19.  You can do this by uncommenting those lines.\
+* Run the replicate_Fig_2_TabsA1_A2_A3_posted_240815.do file.  It will deposit Figure 2 in the Figures folder and Tables A1-A3 in the Tables folder.  Note 1: This file only creates Figure 2 for infant survival.  If you want to create the same figure for other outcomes, uncomment line 260.  Note 2: Each table has 2 files.  One is a wrapper (eg tab_conception.tex) and one is the contents of the table (eg tab_conception_input.tex). \
+* To calculate q-values, open fdr_sharpened_qvalues.do, and follow the instructions therein.  
 \
 DATA FROM DRYAD\
 \
